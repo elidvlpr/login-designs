@@ -51,6 +51,10 @@
         font-size: 15px;
     }
 
+    input[type=password] {
+        margin-bottom: 1em;
+    }
+
 
    .wrapper img {
     width: 35em;
@@ -58,19 +62,30 @@
    }
 
    button {
-        padding: 10px 15px;
-        margin: .5em 10em .5em 0;
-        display: inline-block;
-        border-radius: 0.25rem;
-        border: 1px solid #07485B;
-        outline: none;
-        font-size: 15px;
-        background-color: #00846F;
-        color: #fff;
-        cursor: pointer;
-    }
+    padding: 8px 15px;
+    margin: .5em 10em 0 0;
+    display: inline-block;
+    border-radius: 0.25rem;
+    border: 1px solid #07485B;
+    outline: none;
+    font-size: 15px;
+    background-color: #00846F;
+    color: #fff;
+    cursor: pointer;
+}
+
 
     button:hover {
         opacity: 80%;
         transition: ease .3s;
+    }
+
+    .return {
+        background-color: #FF5474; 
+        border: 1px #FF5474 solid;
+    }
+
+    .return a {
+        text-decoration: none;
+        color: #fff;
     }

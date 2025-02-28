@@ -50,6 +50,10 @@
         font-size: 15px;
     }
 
+    input[type=password] {
+        margin-bottom: 1em;
+    }
+
 
    .wrapper img {
     width: 35em;
@@ -58,13 +62,13 @@
 
    button {
         padding: 10px 15px;
-        margin: .5em 10em .5em 0;
+        margin: .5em 10em 0 0;
         display: inline-block;
         border-radius: 0.25rem;
-        border: 1px solid #07485B;
+        border: 1px solid #F3B500;
         outline: none;
         font-size: 15px;
-        background-color: #1B2E35;
+        background-color: #F3B500;
         color: #fff;
         cursor: pointer;
     }
@@ -72,4 +76,13 @@
     button:hover {
         opacity: 80%;
         transition: ease .3s;
+    }
+    .return {
+        background-color: #FF5474; 
+        border: 1px #FF5474 solid;
+    }
+
+    .return a {
+        text-decoration: none;
+        color: #fff;
     }

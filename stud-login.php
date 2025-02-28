@@ -14,9 +14,10 @@
                 <p>If you have problem encountered, contact administrator. <br> Thank you!</p> <br>
                 <div class="login">
                     <form action="">
-                        <input type="text" placeholder="Enter Username" require> 
-                        <input type="password" placeholder="Enter Password" require>
+                        <input type="text" placeholder="Enter Username" required> 
+                        <input type="password" placeholder="Enter Password" required>
                         <button type="submit">Login</button> 
+                        <button class="return"> <a href="index.php">Return</a> </button> 
                     </form>
                     
                 </div>

@@ -77,8 +77,12 @@
                 <br> contact administrator. Thank you!</p> <br>
                 <div class="role">
                 <ul>
-                    <li><a href="login.php">TEACHER</a></li>
-                    <li><a href="stud-login.php">STUDENT</a></li>
+                    <li>
+                        <a href="teach-login.php">TEACHER</a>
+                    </li>
+                    <li>
+                      <a href="stud-login.php">STUDENT</a>
+                    </li>
                 </ul>
             </div>
             </div>

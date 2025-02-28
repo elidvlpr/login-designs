@@ -18,6 +18,7 @@
                         <input type="text" placeholder="Enter Username" require> 
                         <input type="password" placeholder="Enter Password" require>
                         <button type="submit">Login</button> 
+                        <button class="return"> <a href="index.php">Return</a> </button> 
                     </form>
                     
                 </div>
